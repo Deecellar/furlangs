@@ -1,0 +1,45 @@
+; Fibonacci numbers
+
+; Init registers
+pet OWO 0
+pet UwU 1
+pet ONO 0
+pet UNU 1
+
+@print = Fibonacci numbers
+pet MEW 10
+@print = > first 48 numbers 
+pet MEW 10
+pet ONO 48
+@print = 0 1 
+pet MEW 32
+loop:
+; UNU is not reliable since is the temporary register
+; Since we are using it to store the result of the addition and to save if the counter is greater than zero we need to reinitialize it
+pet UNU 0
+; Calculate next Fibonacci number
+; We use paw (add) OWO is f(n-2) and UwU is f(n-1) we use UNU as a temporary register
+; Paw takes two args
+; First arg is the register to store the result
+; Second arg is the register or value to add
+paw UNU OWO
+paw UNU UwU
+; We store the result in OWO
+pet OWO UWU 
+pet UwU UNU
+; We print the number
+pet DMW UNU
+; We reduce the counter (ONO) by 1
+bop ONO 1
+; IF ONO is greater than 0 we set UNU to 0
+cyt UNU ONO 0
+; IF UNU is not 0 we jump to loop
+pat UNU
+wig in
+; We print a space
+pet MEW 32
+wig loop 
+; We print a new line
+
+fin:
+yif
