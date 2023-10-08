@@ -3,7 +3,7 @@
 A esolang project showing two esolangs
 FURASM and FurCode
 
-I am lazy, this are made by people and you can find them on https://esolangs.org/wiki/FurCode and https://esolangs.org/wiki/FURASM
+I am lazy, this are made by people and you can find them on https://esolangs.org/wiki/Furcode and https://esolangs.org/wiki/furASM
 
 ## FurCode
 
