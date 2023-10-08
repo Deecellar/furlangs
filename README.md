@@ -3,15 +3,7 @@
 A esolang project showing two esolangs
 FURASM and FurCode
 
-I am lazy, this are made by people and you can find them on https://esolangs.org/wiki/Furcode and https://esolangs.org/wiki/furASM
-
-## FurCode
-
-FurCode is a esolang made by User:PythonshellDebugwindow on esolangs.org
-
-## FURASM
-
-FURASM is a esolang made by User:PythonshellDebugwindow on esolangs.org
+I am lazy, this are made by people and you can find them on  https://esolangs.org/wiki/furASM and furcode is based on https://esolangs.org/wiki/Furcode
 
 
 ## How to run
